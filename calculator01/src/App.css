@@ -5,13 +5,33 @@
   text-align: center;
 }
 
-.btn{
-  background-color: grey;
-
-}
-
 .calculator{
   display: grid;
-  
-  width: 35px;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 10px;
+  margin: 0 auto;
+  max-width: 300px;
+  padding: 20px;
+  background-color:rgb(11, 11, 116);
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.btn {
+  grid-column: span 1;
+  padding: 10px;
+  font-size: 18px;
+  text-align: center;
+  background-color: #8d8d8d;
+  border: 1px solid #050505;
+  cursor: pointer;
+}
+
+.calculator-display{
+  grid-column: span 4;
+  padding: 10px;
+  font-size: 24px;
+  text-align: right;
+  background-color: #a7a6a6;
+  border: 1px solid #0a0a0a;
 }
