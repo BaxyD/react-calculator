@@ -13,6 +13,7 @@ function App() {
       <button className='btn-c btn' >c</button>
       <button className='btn-% btn' >%</button>
       <button className='btn-/ btn'>/</button>
+      <button className='btn'></button>
       <button className='btn-7 btn'>7</button>
       <button className='btn-8 btn'>8</button>
       <button className='btn-9 btn'>9</button>
@@ -27,6 +28,7 @@ function App() {
       <button className='btn-+ btn'>+</button>
       <button className='btn-0 btn'>0</button>
       <button className='btn-. btn'>.</button>
+      <button className='btn'></button>
       <button className='btn-= btn'>=</button>
     </div>
     </>
