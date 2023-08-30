@@ -5,6 +5,18 @@ import './App.css'
 
 function App() {
   const [count, setCount] = useState(0)
+function Button({ label, onClick }) {
+    return <button onClick={() => onClick(label)}>{label}</button>;
+  }
+
+function Display({ input, result }) {
+  return (
+    <div className='calculator-display'>
+      <div className="input">{input}</div>
+      <div className='result'>{result}</div>
+    </div>
+  );
+}   
 
   return (
     <>
